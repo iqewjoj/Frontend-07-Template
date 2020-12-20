@@ -11,10 +11,11 @@ LR算法
 nuumber、oparate
 
 语法定义：
-<code><expression>::=
-    <additiveexpression><eof>
-<additiveexpression>::=
-    <multiplicaticeexpression>
-    <additiveexpression><+><multiplicativeexpression>
-    <additiveexpression><-><multiplicativeexpression>
+<code>
+&lt;expression&gt;::=
+    &lt;additiveexpression&gt&lt;eof&gt;
+&lt;additiveexpression&gt;::=
+    &lt;multiplicaticeexpression&gt;
+    &lt;additiveexpression&gt;&lt;+&gt;&lt;multiplicativeexpression&gt;
+    &lt;additiveexpression&gt;&lt;-&gt;&lt;multiplicativeexpression&gt;
 </code>
