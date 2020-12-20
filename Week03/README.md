@@ -11,8 +11,8 @@
 ### 词法定义：
 + TokenNumber：1 2 3 4 5 6 7 8 9 0的组合
 + Oparate：+ - * /
-+ Whitespace：<SP>
-+ LineTerminator：<LF><CR>
++ Whitespace：&lt;SP&gt;
++ LineTerminator：&lt;LF&gt;&lt;CR&gt;
 
 ### 语法定义：
 <pre>
@@ -26,8 +26,8 @@
     &lt;AdditiveExpression&gt;&lt;-&gt;&lt;MultiplicativeExpression&gt;<br/>
 
 &lt;MultiplicativeExpression&gt;::=<br/>
-&lt;Number&gt;<br/>
-&lt;MultiplicativeExpression&gt;&lt;*&gt;&lt;Number&gt;<br/>
-&lt;MultiplicativeExpression&gt;&lt;/&gt;&lt;Number&gt;<br/>
+    &lt;Number&gt;<br/>
+    &lt;MultiplicativeExpression&gt;&lt;*&gt;&lt;Number&gt;<br/>
+    &lt;MultiplicativeExpression&gt;&lt;/&gt;&lt;Number&gt;<br/>
 </code>
 </pre>
